@@ -1,0 +1,68 @@
+{
+  "Data": [
+    {
+      "EnquireNo": 1,
+      "Name": "Anurag",
+      "Email": "anuragpandey8056@gmail.com",
+      "Contact": 7389834002,
+      "About": "products",
+      "id": "07d1"
+    },
+    {
+      "id": "4c69",
+      "EnquireNo": 2,
+      "Name": "sachin",
+      "Email": "sachin@234gmail.com",
+      "Contact": "8989805154",
+      "About": "laptops"
+    },
+    {
+      "id": "4071",
+      "EnquireNo": 3,
+      "Name": "sachin",
+      "Email": "sachin@gmail.com",
+      "Contact": "8989805154",
+      "About": "laptops"
+    },
+    {
+      "id": "d41c",
+      "EnquireNo": 4,
+      "Name": "sachin",
+      "Email": "sachin@gmail.com",
+      "Contact": "8989805154",
+      "About": "mobiles"
+    },
+    {
+      "id": "58c8",
+      "EnquireNo": 5,
+      "Name": "sachin",
+      "Email": "sachin@gmail.com",
+      "Contact": "8989805154",
+      "About": "laptops"
+    },
+    {
+      "id": "43a3",
+      "EnquireNo": 7,
+      "Name": "sachin",
+      "Email": "sachin@gmail.com",
+      "Contact": "8989805154",
+      "About": "laptops"
+    },
+    {
+      "id": "eaa2",
+      "EnquireNo": 8,
+      "Name": "sachin",
+      "Email": "sachin@gmail.com",
+      "Contact": "8989805154",
+      "About": "laptops"
+    },
+    {
+      "id": "d19f",
+      "EnquireNo": "52",
+      "Name": "deeplai",
+      "Email": "deepali@gmail.com",
+      "Contact": "58968569",
+      "About": "something"
+    }
+  ]
+}
