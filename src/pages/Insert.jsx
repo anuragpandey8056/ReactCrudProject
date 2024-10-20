@@ -19,7 +19,7 @@ const Insert = () => {
 
     const HandleSubmit = (e) => {
         e.preventDefault(); // Prevents the default form submission behavior
-        let url = "http://localhost:3000/Data";
+        let url = "https://json-server-deployment-4w3v.onrender.com/Data";
         axios.post(url, inpu).then((resp) => {
             console.log(resp);
             toast.success("Data Saved Successfully");

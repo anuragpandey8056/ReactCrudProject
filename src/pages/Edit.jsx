@@ -12,7 +12,7 @@ const Edit = () => {
     const navigate = useNavigate();
 
     const loaddata = () => {
-        let api = "http://localhost:3000/Data";
+        let api = "https://json-server-deployment-4w3v.onrender.com/Data";
         axios.get(api).then((res) => {
             console.log(res.data);
             setdata(res.data);
@@ -24,7 +24,7 @@ const Edit = () => {
     }, []);
 
     const Del = (id) => {
-        let url = `http://localhost:3000/Data/${id}`
+        let url = `https://json-server-deployment-4w3v.onrender.com/Data/${id}`
         axios.delete(url).then((resp) => {
             console.log(resp)
             message.error("data deleted ")

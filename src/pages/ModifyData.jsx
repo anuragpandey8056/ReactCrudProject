@@ -12,7 +12,7 @@ const Modify = () => {
     });
 
     const loaddata = () => {
-        let api = `http://localhost:3000/Data/${myid}`;
+        let api = `https://json-server-deployment-4w3v.onrender.com/Data/${myid}`;
         axios.get(api).then((resp) => {
             console.log(resp.data);
             setmydata(resp.data);
@@ -30,7 +30,7 @@ const Modify = () => {
     };
 
     const HandleSubmit = () => {
-        let api = `http://localhost:3000/Data/${myid}`;
+        let api = `https://json-server-deployment-4w3v.onrender.com/Data/${myid}`;
         axios.put(api, mydata).then((resp) => {
             message.success("Updated successfully");
             setmydata({

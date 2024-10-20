@@ -12,7 +12,7 @@ const SearchbyName=()=>{
     const Handle=(e)=>{
         let empname = e.target.value
         setname(empname); 
-        let api = `http://localhost:3000/Data`
+        let api = `https://json-server-deployment-4w3v.onrender.com/Data`
         axios.get(api).then((resp)=>{
             console.log(resp.data)
             setdata(resp.data)

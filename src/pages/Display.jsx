@@ -6,7 +6,7 @@ const Display = () => {
     const [mydata, setdata] = useState([]);
 
     const loaddata = () => {
-        let api = "http://localhost:3000/Data";
+        let api = "https://json-server-deployment-4w3v.onrender.com/Data";
         axios.get(api).then((res) => {
             console.log(res.data);
             setdata(res.data);

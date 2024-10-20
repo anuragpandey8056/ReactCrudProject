@@ -6,7 +6,7 @@ const Search = () => {
     const [mydata,setdata]=useState([])
     const [eno,seteno]=useState("")
     const loaddata=()=>{
-        let api = `http://localhost:3000/Data/?EnquireNo=${eno}`
+        let api = `https://json-server-deployment-4w3v.onrender.com/Data/?EnquireNo=${eno}`
         axios.get(api).then((resp)=>{
             console.log(resp.data)
             setdata(resp.data)
