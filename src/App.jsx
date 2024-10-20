@@ -6,6 +6,7 @@ import Insert from "./pages/Insert"
 import Modify from "./pages/ModifyData"
 import Search from "./pages/search"
 import SearchbyName from "./pages/SearchByName"
+import Home from "./pages/Home"
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout/>}>
+      <Route path="/"  element={<Layout/>} >``
+      <Route index element={<Home/>}/>
       <Route path="display" element={<Display/>}/>
       <Route path="Insert" element={<Insert/>}/>
       <Route path="Edit" element={<Edit />} />

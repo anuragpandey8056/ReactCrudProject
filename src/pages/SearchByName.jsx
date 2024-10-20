@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
+
 
 
 
@@ -40,7 +42,24 @@ const SearchbyName=()=>{
 
 
         <>
-        serachName: <input type="text" value={name} onChange={Handle}/>
+       
+        <Form className="d-flex">
+        serachName: <Form.Control 
+                    
+                    onChange={Handle}
+                    type="search"
+                    value={name}
+                    placeholder="Search"
+                    className="me-2"
+                    aria-label="Search"
+                    style={{ width: "300px" }} 
+
+                />
+              
+            </Form>
+        
+        
+        
         <div style={styles.tableContainer}>
             <Table striped bordered hover responsive="sm" style={styles.table}>
                 <thead style={styles.header}>

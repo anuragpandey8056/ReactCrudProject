@@ -52,9 +52,12 @@ const Layout = () => {
                 </Container>
             </Navbar>
 
-            <center>
-                <hr color="red" size="4" />
+            <center >
+                 <div style={{marginBottom:"20px"}}></div>
+                <div >
                 <Outlet />
+                </div>
+                
                 <hr color="red" size="4" />
                 www.mywebsite.com
             </center>
